@@ -103,8 +103,17 @@ button{
 /*Third part of the webpage*/
 .thirdseperation{
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  padding: 100px;
   background-color: #e5e7eb;
   font-size: 36px;
+  font-style: italic;
+  text-align: center;
+  gap: 10px;
+}
+.AuthorofQoute{
+  text-align: right;
+  font-size: 20px;
+  font-weight: bold;
+
 }
