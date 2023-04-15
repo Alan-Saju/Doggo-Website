@@ -117,3 +117,31 @@ button{
   font-weight: bold;
 
 }
+/*Fourth part of the website*/
+.fourthseperation{
+  display: flex;
+  justify-content: space-between;
+  margin: 75px;
+  border-radius: 10px;
+  padding: 50px;
+  background-color: #3882f6;
+  color: #e5e7eb;
+}
+.signuptext{
+  display: flex;
+  flex-direction: column;
+
+}
+.button2{
+  border: 1px solid white;
+  color: white;
+}
+.signuptextheading{
+  font-weight: bold;
+}
+/*footer*/
+.footer{
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
