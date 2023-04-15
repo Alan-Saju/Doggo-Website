@@ -71,6 +71,8 @@ button{
   width: 100px;
   height: 40px;
   background-color: #3882f6;
+  border-radius: 10px;
+  border-color: #3882f6;
 }
 
 /*Second part of the webpage*/
@@ -90,9 +92,19 @@ button{
 .img{
   width: 250px;
   height: 200px;
-  border: 2px black;
+  border: 5px solid #3882f6;
+  border-radius: 10px;
 }
 .text{
   max-width: 250px;
   text-align: center;
+}
+
+/*Third part of the webpage*/
+.thirdseperation{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e5e7eb;
+  font-size: 36px;
 }
