@@ -14,27 +14,11 @@ body {
     justify-content: space-between;
     gap: 50px;
     padding-bottom: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
 
   }
-  .secondseperation {
-    background-color:white;
-    display: flex;
-    flex-direction: column;
-    padding: 50px;
-
-  }
-  .thirdseperation{
-    background-color: #e5e7eb;
-    padding: 50px;
-  }
-  .fourthseperation{
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    padding: 50px;
-  }
+ 
 
  .header{
     display: flex;
@@ -50,28 +34,34 @@ body {
   }
   .firstseperationmainflex{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;     /*should do some work here.currently don't know much tho*/
   }
   .firstseperationsecondaryflex{
     color: white;
-    width: 500px;
-    height: 700px;
     display: flex;
     flex-direction: column;
+    gap: 5px;
+    max-width:400px;
   }
-button{
-    display: flex;
-    justify-content: left;
-    width: 100px;
-    height: 50px;
-    padding: auto;
-    background-color: #2882f6; 
-    font-weight: bold;
-    color: white;
-    font-size: 20px;
-    text-align: center;
-}
+
 a{
   text-decoration: none;
+  color: #e5e7eb;
+}
+.heading{
+  font-weight: bold;
+  font-size: 32px;
+}
+.patti{
+  width: 500px;
+  height: 200px;
+
+}
+.heading1{
+  font-size: 48px;
+  font-weight:bolder;
+}
+.text1{
+  font-size: 18px;
   color: #e5e7eb;
 }
