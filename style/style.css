@@ -74,3 +74,25 @@ button{
 }
 
 /*Second part of the webpage*/
+.secondseperation{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.imageboxes{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 50px;
+  border: 2px ;
+
+}
+.img{
+  width: 250px;
+  height: 200px;
+  border: 2px black;
+}
+.text{
+  max-width: 250px;
+  text-align: center;
+}
