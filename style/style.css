@@ -12,11 +12,11 @@ body {
     background-color: #1f2937;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     gap: 50px;
     padding-bottom: 50px;
     padding-left: 100px;
     padding-right: 100px;
+    
 
   }
  
@@ -34,8 +34,9 @@ body {
   }
   .firstseperationmainflex{
     display: flex;
-    justify-content:center;     /*should do some work here.currently don't know much tho*/
+   
     gap: 50px;
+    padding: 10px;
   }
   .firstseperationsecondaryflex{
     color: white;
@@ -56,7 +57,7 @@ a{
 }
 .patti{
   width: 500px;
-  height: 200px;
+  height: 400px;
 
 }
 .heading1{
